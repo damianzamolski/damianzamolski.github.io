@@ -21,9 +21,11 @@
   },
   "homepage": "https://github.com/DamianZamolski/DamianZamolski.github.io#readme",
   "dependencies": {
+    "@types/react": "^17.0.20",
     "next": "^11.1.2",
     "prettier": "^2.3.2",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.2"
   }
 }
