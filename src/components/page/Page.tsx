@@ -1,4 +1,10 @@
-import PageHead from './PageHead.tsx'
+import { ReactNode } from 'react'
+import PageHead from './PageHead'
+
+interface PageProps {
+  children: ReactNode
+  title: string
+}
 
 const Page = ({ children, title }) => (
   <>
