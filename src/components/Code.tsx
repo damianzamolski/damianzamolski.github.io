@@ -1,21 +1,23 @@
 import { useEffect } from 'react'
-import highlightJs from 'highlight.js'
+
+import highlightJs from 'highlight.js/lib/core'
 import javascript from 'highlight.js/lib/languages/javascript'
 import 'highlight.js/styles/atom-one-light.css'
 
 highlightJs.registerLanguage('javascript', javascript)
 
-interface Props {
+interface CodeProps {
   value: string
 }
 
-const Code = ({ value }: Props) => {
+const Code = ({ value }: CodeProps) => {
   useEffect(() => {
-    highlightJs.initHighlighting(), []
-  })
+    highlightJs.highlightAll()
+  }, [])
+
   return (
     <pre>
-      <code className='js'>{value}</code>
+      <code>{value}</code>
     </pre>
   )
 }
