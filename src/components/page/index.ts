@@ -1,3 +1,3 @@
-import Page from './Page.tsx'
+import Page from './Page'
 
 export default Page
