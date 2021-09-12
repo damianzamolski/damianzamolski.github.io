@@ -18,7 +18,6 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "",
     "@types/react": "",
-    "highlight.js": "",
     "next": "",
     "prettier": "",
     "react": "",
