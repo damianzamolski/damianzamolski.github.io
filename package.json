@@ -16,6 +16,7 @@
   "license": "AGPL-3.0-or-later",
   "dependencies": {
     "@types/react": "",
+    "highlight.js": "",
     "next": "",
     "prettier": "",
     "react": "",
